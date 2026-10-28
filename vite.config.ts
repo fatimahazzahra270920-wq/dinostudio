@@ -3,11 +3,10 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import { defineConfig } from 'vite';
 
-export default defineConfig(() => {
-  return {
-    base: '/dinostudio/',
-    plugins: [react(), tailwindcss()],
-    resolve: {
+export default defineConfig({
+  base: '/dinostudio/',
+  plugins: [react(), tailwindcss()],
+});
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
