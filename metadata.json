@@ -1,0 +1,6 @@
+{
+  "name": "DinoColor Studio - US Gumroad Coloring Book Creator & PDF Export",
+  "description": "Professional US Letter and A5 print-ready coloring book creator with 30 cute dinosaur pages, dual-format PDF generator, separated download folders, and Gumroad seller kit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
